@@ -11,6 +11,13 @@ Styling: Tailwind CSS handles the styling, utilizing custom components and utili
 
 User Interaction: The application uses the useDebounce hook from the react-use library to optimize search queries, preventing excessive API calls while the user is typing.
 
+2. Data Sources and Backend LogicThe application relies on two external services for its data and logic:
+
+  # The Movie Database (TMDB) API
+   Movie Data SourceUsed to fetch movie details based on search terms or popular lists. The application makes API calls using a Bearer Token for authorization.
+ 
+  # Appwrite:
+   Backend-as-a-Service (BaaS)Used for custom backend logic and tracking user behavior. Specifically, it manages the trending feature by tracking search counts.
 
 # React + Vite
 
