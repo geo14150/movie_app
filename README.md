@@ -1,7 +1,7 @@
-🚀 # Application Overview: Movie Search & Trending
+# 🚀  Application Overview: Movie Search & Trending
 Your application, Movie App, is a client-side web application built primarily with React and Vite. Its main function is to allow users to search for movies and display a trending list based on real-time user searches.
 
-🛠️ # Key Technologies and Functionality
+#🛠️  Key Technologies and Functionality
 1. Frontend & UI
 Framework: React.js is used for building the user interface components.
 
