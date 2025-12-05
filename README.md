@@ -19,6 +19,20 @@ User Interaction: The application uses the useDebounce hook from the react-use l
   # Appwrite:
    Backend-as-a-Service (BaaS)Used for custom backend logic and tracking user behavior. Specifically, it manages the trending feature by tracking search counts.
 
+# 🏃 How to Execute the Application
+
+This mode is used for development and viewing the application locally without deployment issues.
+
+Dependencies: Ensure you have Node.js and npm installed.
+
+Install: Run npm install in the project directory to install all required packages.
+
+Environment Variables: Create a .env file and set your VITE_TMDM_API_KEY, VITE_APPWRITE_PROJECT_ID, etc., which are crucial for the Appwrite and TMDB connections.
+
+Run: Execute the development command: npm run dev
+
+The application will run on your local server, typically at http://localhost:5173/.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
